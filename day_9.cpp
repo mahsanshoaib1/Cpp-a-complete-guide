@@ -45,5 +45,25 @@ int main()
         cout<<c<<" * "<<i<<" = "<<c*i<<endl;   
         i++;
     }while(i<=10);
+
+// break and continue
+     
+    for(int i=1;i<=5; i++)
+    {
+        if(i==3)
+        {
+            continue;  // skip the itreation and 3 will not be written 
+        }
+        cout<<i<<endl;
+    }
+
+    for(int i=1;i<=5; i++)
+    {
+        if(i==4)
+        {
+            break;  // break the loop and no more value will be written 
+        }
+        cout<<i<<endl;
+    }
     return 0;
 }
