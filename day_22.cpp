@@ -1,4 +1,8 @@
 // arrays in class and static variable
+    /* 
+    static member functions in class are the functions which only accepts static variables
+    they are not called by an object. nameOfClass :: static function
+*/
 
 #include <iostream>
 using namespace std;
